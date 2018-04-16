@@ -1,0 +1,23 @@
+{
+  "name": "kanji2roman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meganetaaan/kanji2roman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meganetaaan/kanji2roman/issues"
+  },
+  "homepage": "https://github.com/meganetaaan/kanji2roman#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
