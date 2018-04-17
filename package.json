@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/meganetaaan/kanji2roman#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "twitter": "^1.7.1"
   }
 }
