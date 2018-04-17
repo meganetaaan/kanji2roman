@@ -12,6 +12,7 @@ function kana2roman (str) {
       i += 2
       continue
     }
+    
     const onechar = str.substr(i, 1)
     if (onechar == '') {
       break
@@ -46,11 +47,13 @@ function kan2roman (str) {
 }
 
 // test
-kan2roman('わたしはTwitterちょっとできる').then((result) => {
+kan2roman('わたしは；’：＊＆＿ー｜・＞＜＾％＄＃＠！、（Twitter）ちょっとできる。うぇい！？').then((result) => {
+  console.log(result)
   result.data.tokens.forEach(token => {
     const str = token.map(t => {
       return t.pronunciation
     }).join('')
+    console.log(str)
     const roman = kana2roman(str)
     console.log(roman.join(''))
   })
